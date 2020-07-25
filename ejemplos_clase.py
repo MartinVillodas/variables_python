@@ -3,14 +3,14 @@
 Tipos de variables [Python]
 Ejemplos de clase
 ---------------------------
-Autor: Inove Coding School
+Autor: MartinVillodas
 Version: 1.2
 
 Descripcion:
 Programa creado para mostrar ejemplos prácticos de los visto durante la clase
 '''
 
-__author__ = "Inove Coding School"
+__author__ = "MartinVillodas"
 __email__ = "alumnos@inove.com.ar"
 __version__ = "1.2"
 
