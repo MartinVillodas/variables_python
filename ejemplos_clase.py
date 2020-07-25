@@ -11,7 +11,7 @@ Programa creado para mostrar ejemplos prácticos de los visto durante la clase
 '''
 
 __author__ = "MartinVillodas"
-__email__ = "alumnos@inove.com.ar"
+__email__ = "martinvillodas@gmail.com"
 __version__ = "1.2"
 
 
