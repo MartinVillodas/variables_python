@@ -32,9 +32,16 @@ def ej1():
       la operación realizada en cada caso y con que números
       se ha realizado la operación
       ej: La suma entre 4.2 y 6.5 es 10.7
-
+    
     '''
-
+    print("Ingrese dos numeros reales")
+    numero_1 = float(input())
+    numero_2 = float(input())
+    print("La suma entre", numero_1, "y", numero_2, "es", numero_1 + numero_2)
+    print("La resta enrte", numero_1, "y", numero_2, "es", numero_1 - numero_2)
+    print("La multiplicacion entre", numero_1, "y", numero_2, "es", numero_1 * numero_2)
+    print("La division entre", numero_1, "y", numero_2, "es", numero_1 / numero_2)
+    print("La potencia entre", numero_1, "y", numero_2, "es", numero_1 ** numero_2)
 
 def ej2():
     print('Ejercicios de práctica numérica y cadenas')
@@ -53,8 +60,18 @@ def ej2():
       altura de la persona
       Nuevamente debe aclarar el campo de cada uno, para el que lo lea
       entienda de que se está hablando.
-
     '''
+    print("Coloque a continuacion sus datos personales por favor")
+    print("Nombre Completo")
+    nombre = str(input())
+    print("DNI")
+    dni = str(input())
+    print("Edad")
+    edad = str(input())
+    print("Altura")
+    altura = str(input())
+    print("Nombre Completo:", nombre, "DNI:", dni)
+    print("Nombre Completo:",nombre, "Edad:", edad, "Altura:", altura)
 
 
 def ej3():
@@ -154,7 +171,7 @@ def ej5():
 if __name__ == '__main__':
     print("Ejercicios de práctica")
     ej1()
-    # ej2()
+    ej2()
     # ej3()
     # ej4()
     # ej5()
