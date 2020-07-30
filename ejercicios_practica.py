@@ -106,6 +106,17 @@ def ej3():
     Cualquier duda con el método split pueden consultarla por el campus
 
     '''
+    print("Escribe nombre completo de tu madre/padre")
+    padre_1 = str(input())
+    print("Escribe nombre completo de tu otra madre/padre")
+    padre_2 = str(input())
+    print("Escribe solo tu nombre")
+    hijo = str(input())
+    nombre_padre, apellido_1 = padre_1.split(" ")
+    nombre_madre, apellido_2 = padre_2.split(" ")
+    print("Tu nombre completo es:", hijo, apellido_1, apellido_2)
+    
+
 
 
 def ej4():
@@ -140,7 +151,15 @@ def ej4():
 
     Cualquier duda con el método split pueden consultarla por el campus
     '''
-
+    print("Escribe el nombre completo de una persona:")
+    persona_1 = str(input())
+    print("Escribe el nombre del posible pariente:")
+    persona_2 = str(input())
+    nombre, apellido = persona_2.split(" ")
+    if apellido in [persona_1]:
+      print(persona_1,"y", persona_2,"son parientes")
+    else:
+      print(persona_1, "no es pariente de", persona_2)
 
 def ej5():
     # Ejercicios de práctica con cadenas
@@ -166,12 +185,20 @@ def ej5():
 
     Cualquier duda con estos métodos pueden consultarla por el campus
     '''
+    print("Escribe tu nombre completo:")
+    nombre = str(input())
+    nombre_mini = nombre.lower()
+    print(nombre_mini)
+    nombre_grande = nombre.upper()
+    print(nombre_grande)
+    inicial_mayus = nombre.capitalize()
+    print(inicial_mayus)
 
 
 if __name__ == '__main__':
     print("Ejercicios de práctica")
     ej1()
     ej2()
-    # ej3()
-    # ej4()
-    # ej5()
+    ej3()
+    ej4()
+    ej5()
