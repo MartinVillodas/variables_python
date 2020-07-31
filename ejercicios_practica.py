@@ -153,13 +153,13 @@ def ej4():
     '''
     print("Escribe el nombre completo de una persona:")
     persona_1 = str(input())
-    print("Escribe el nombre del posible pariente:")
+    print("Escribe el nombre completo del posible pariente:")
     persona_2 = str(input())
-    nombre, apellido = persona_2.split(" ")
-    if apellido in [persona_1]:
-      print(persona_1,"y", persona_2,"son parientes")
+    n , apellido = persona_2.split(" ")
+    if apellido in persona_1:
+      print(persona_2, "es pariente de", persona_1)
     else:
-      print(persona_1, "no es pariente de", persona_2)
+      print(persona_2, "no es pariente de", persona_1)
 
 def ej5():
     # Ejercicios de práctica con cadenas

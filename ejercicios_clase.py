@@ -20,7 +20,7 @@ def ej1():
     # Ejercicios de práctica numérica
 
     # Operadores con números decimales
-    print('Ingrese el primer número decimal a operar:')
+    print('Ingrese el primer númerodecimal a operar:')
     numero_1 = int(input())
 
     print('Ingrese el segundo número decimal a operar:')
@@ -124,7 +124,7 @@ def ej5():
     # De la segunda palabra tome las últimas tres letras, utilice el operador :
     # Formar una nueva palabra con los recortes solicitados
     # Imprima en pantalla los resultados
-    print(palabra_1[0:4] + palabra_2[-1:])
+    print(palabra_1[0:4] + palabra_2[-3:])
 
 if __name__ == '__main__':
     print("Bienvenidos a otra clase de Inove con Python")
